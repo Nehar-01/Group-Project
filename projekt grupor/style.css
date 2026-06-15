@@ -1,5 +1,10 @@
-#first_text{
+.first{
     padding-left: 50px;
     padding-top: 150px;
     color: #d3b683;
+}
+
+#img{
+    width: 1625px;
+    height: 750px;
 }
