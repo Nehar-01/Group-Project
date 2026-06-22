@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lazdrohu N'Fermë</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <header>
+
+<header>
     <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="ANIMAL.html">ANIMALS</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
-        </ul>
+        <img src="img/logo.png" class="logo">
+
+        <div id="myLinks">
+            <a href="home.html">Home</a>
+            <a href="animals.html">Animals</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+
+        <button class="icon" onclick="openMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </nav>
 </header>
-    <img src="img/image.jpg" id="img">
-    <div class="first">
-        
-        <h1 class="bigger">LAZDROHU N'FERMË</h1>
-        <p class="big">Perjetoni dashurin dhe kenaqesine e kafsheve te fermes sone</p>
-    </div>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="img/image.jpg" id="img">
 
-    <script src="main.js"></script>
+<div class="first">
+    <h1 class="bigger">LAZDROHU N'FERMË</h1>
+    <p class="big">Përjetoni dashurinë dhe kënaqësinë e kafshëve të fermës sonë.</p>
+</div>
+
+<script src="main.js"></script>
 </body>
 </html>
