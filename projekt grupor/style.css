@@ -48,22 +48,22 @@ nav{
 @media (max-width:768px){
 
     nav{
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
 
     .icon{
-        display:block;
+        display: block;
     }
 
     #myLinks{
-        display:none;
-        width:100%;
-        flex-direction:column;
-        margin-top:15px;
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 15px;
     }
 
     #myLinks a{
-        padding:10px 0;
+        padding: 10px 0;
     }
 }
 
@@ -147,7 +147,6 @@ button:hover{
 
 .header-section{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -161,7 +160,6 @@ button:hover{
 }
 
 .home-link{
-    text-decoration: none;
     background-color: #97CD6F;
     color: white;
     padding: 10px 18px;
@@ -225,3 +223,4 @@ button:hover{
     border-radius: 10px;
     border: 3px solid #FFBD31;
 }
+
