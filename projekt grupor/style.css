@@ -96,6 +96,7 @@ nav{
 
 .big{
     font-size: 25px;
+    display:none;
 }
 
 .contact-html{
@@ -302,4 +303,15 @@ button:hover{
     max-width: 90%;
     max-height: 70%;
     border-radius: 10px;
+}
+
+#btn1{
+    text-align: center;
+
+}
+
+.animation {
+    text-align: center;
+    transition: 1s ease;
+    transform: scale(0.9);
 }

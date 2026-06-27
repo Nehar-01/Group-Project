@@ -1,14 +1,3 @@
-function openMenu() {
-    const menu = document.getElementById("myLinks");
-
-    if (menu.style.display === "flex") {
-        menu.style.display = "none";
-    } else {
-        menu.style.display = "flex";
-        menu.style.flexDirection = "column";
-    }
-}
-
 function ushqyerja(){
     alert("Vizitorët mund të ushqejnë kafshët, por jo qenët.");
 }
@@ -66,3 +55,77 @@ overlay2.addEventListener("click", function () {
     overlay2.style.display = "none";
     document.querySelector(".gallery").style.filter = "none";
 });
+
+function showText() {
+    document.getElementById("text").style.display = "block";
+}
+
+function hideText() {
+    document.getElementById("text").style.display = "none";
+}
+
+var count = 0;
+
+function hello() {
+    var title = document.getElementById("title");
+
+    if (title.innerHTML == "LAZDROHU N'FERMË") {
+        title.innerHTML = "Mirë se vini!";
+    } else {
+        title.innerHTML = "LAZDROHU N'FERMË";
+    }
+
+    count++;
+
+    console.log("Klikime");
+}
+
+function swap(img) {
+
+    if (img.src.includes("krisi.jpg")) {
+        img.src = "img/kafshet/choko.jpg";
+    } 
+    else if (img.src.includes("choko.jpg")) {
+        img.src = "img/kafshet/lulu.jpg";
+    } 
+    else if (img.src.includes("lulu.jpg")) {
+        img.src = "img/kafshet/polari.jpg";
+    }
+    else if (img.src.includes("polari.jpg")) {
+        img.src = "img/kafshet/krisi.jpg";
+    } 
+}
+
+function swap(img) {
+    if (img.src.includes("mr heckles.jpg")) {
+        img.src = "img/kafshet/papagalli.jpg";
+    } 
+    else if (img.src.includes("papagalli.jpg")) {
+        img.src = "img/kafshet/pauna.jpg";
+    }
+    else if (img.src.includes("pauna.jpg")) {
+        img.src = "img/kafshet/pauna 2.jpg";
+    }
+    else if (img.src.includes("pauna 2.jpg")) {
+        img.src = "img/kafshet/fazan.jpg";
+    }
+    else if (img.src.includes("fazan.jpg")) {
+        img.src = "img/kafshet/mr heckles.jpg";
+    }
+}
+
+// var v_button = document.getElementBycl("btn1");
+// var v_first = document.getElementsByClassName("animation");
+
+// v_button.onclick = function(){
+//     v_first.style.textAlign = "center";
+//     v_first.style.padding = "20px";
+// }
+
+// v_first.onmouseover = function(){
+//     v_first.style.cssText = "text-align:center; padding:20px;"
+// }
+
+// v_button.onclick = function(){
+//     v_first.setAttribute("class", "test");
+// }
