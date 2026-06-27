@@ -298,8 +298,8 @@ button:hover{
     z-index: 999;
 }
 
-.overlay img {
+.overlay2 img {
     max-width: 90%;
-    max-height: 90%;
+    max-height: 70%;
     border-radius: 10px;
 }
