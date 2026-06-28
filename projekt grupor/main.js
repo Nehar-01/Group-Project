@@ -125,18 +125,3 @@ function swap3(img) {
     }
 }
 
-// var v_button = document.getElementBycl("btn1");
-// var v_first = document.getElementsByClassName("animation");
-
-// v_button.onclick = function(){
-//     v_first.style.textAlign = "center";
-//     v_first.style.padding = "20px";
-// }
-
-// v_first.onmouseover = function(){
-//     v_first.style.cssText = "text-align:center; padding:20px;"
-// }
-
-// v_button.onclick = function(){
-//     v_first.setAttribute("class", "test");
-// }
