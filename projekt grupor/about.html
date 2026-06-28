@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+    <nav>
+        <img src="img/logo.png" class="logo"> 
+            <div id="myLinks">
+                <a href="home.html">FAQJA KRYESORE</a> 
+                <a href="animals.html">KAFSHËT</a> 
+                <a href="about.html">RRETH NESH</a> 
+                <a href="contact.html">KONTAKTI</a> 
+            </div> 
+    </nav> 
+</header> 
 
-<div class="about-page">
+    <div class="about-page">
 
-    <div class="header-section">
-        <h1>RRETH NESH</h1>
-        <a href="index.html" class="home-link">FAQJA KRYESORE</a>
-    </div>
+    <h1 style="text-align: center;">RRETH NESH</h1>
 
     <img src="img/ferma.jpg" class="about-image">
 
@@ -28,21 +36,21 @@
 
     <h2>Përse të na vizitosh?</h2>
 
-    <div class="cards">
-        <div class="card">
+    <div class="sektoret">
+        <div class="sektori">
             <h3>Kafshët e fermes</h3>
             <p>Në fermën tonë jetojnë kafshë të ndryshme që janë pjesë e përditshmërisë dhe bukurisë së jetës në natyrë. 
                 Vizitorët mund të njihen nga afër me lopët, delet, dhitë, kuajt, pulat dhe kafshë të tjera miqësore. Fëmijët dhe të rriturit kanë mundësinë t’i ushqejnë, 
                 t’i vëzhgojnë dhe të mësojnë më shumë rreth rolit të tyre në fermë.</p>
         </div>
 
-        <div class="card" class="animation">
+        <div class="sektori" class="animation">
             <h3>Natyra</h3>
             <p>Rrethuar nga gjelbërimi dhe peizazhet e bukura, ferma jonë ofron një ambient të qetë ku mund të largoheni nga rutina e përditshme. Ajri i pastër, hapësirat e gjera dhe harmonia me natyrën krijojnë një përvojë relaksuese për çdo vizitor.</p>
             <button id="btn1">Click</button>
         </div>
 
-        <div class="card">
+        <div class="sektori">
     <h3>Aktivitetet</h3>
 
     <div class="activity" onclick="ushqyerja()">
@@ -70,19 +78,55 @@
     </div>
 </div>
 
-        <div class="card">
+        <div class="sektori">
             <h3>Eksperienca</h3>
             <p>Në fermën tonë mund të përjetoni nga afër jetën rurale dhe bukurinë e natyrës. Nga shëtitjet në ambientet e fermës deri te njohja me kafshët dhe aktivitetet e ndryshme, çdo moment është krijuar për t'ju ofruar kujtime të veçanta dhe një eksperiencë autentike për të gjithë familjen.</p>
         </div>
     </div>
 
-    <h2>Gallery</h2>
+    <h2>Albumi</h2>
 
-    <div class="gallery">
-    <img src="img/kafshet/krisi.jpg" class="imganimal" onclick="swap(this)">
-    <img src="img/kafshet/mr heckles.jpg" class="imganimal" onclick="swap(this)">
-    <img src="img/kafshet/lepur.jpg" class="imganimal" onclick="swap(this)">
-</div>
+    <div class="albumi">
+        <img src="img/kafshet/krisi.jpg" class="imganimal" onclick="swap(this)">
+        <img src="img/kafshet/mr heckles.jpg" class="imganimal" onclick="swap2(this)">
+        <img src="img/kafshet/lepur.jpg" class="imganimal" onclick="swap3(this)">
+    </div>
+
+    </div>
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-section footer-about">
+            <h3>Ferma Jonë</h3>
+            <p>Një eksperiencë e veçantë dhe kujtime të paharrueshme me kafshët dhe natyrën.</p>
+        </div>
+
+        <div class="footer-section footer-links">
+            <h3>Menuja</h3>
+            <ul>
+                <li><a href="home.html">Faqja Kryesore</a></li>
+                <li><a href="animals.html">Kafshët</a></li>
+                <li><a href="about.html">Rreth Nesh</a></li>
+                <li><a href="contact.html">Kontakti</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section footer-contact">
+            <h3>Na Kontaktoni</h3>
+            <p><strong>Email:</strong> lazdrohu@gmail.com</p>
+            <p><strong>Tel:</strong> +383 45 264 236</p>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/lazdrohuferme?igsh=MTQ1dm1qNm16ODd0OA==" target="_blank" class="social-link">Instagram</a>
+                <a href="https://www.facebook.com/share/1Bd1Wi3PK9/?mibextid=wwXIfr" target="_blank" class="social-link">Facebook</a>
+                <a href="https://www.tiktok.com/@lazdrohunferme" target="_blank" class="social-link">TikTok</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 Ferma Jonë. Të gjitha të drejtat e rezervuara.</p>
+    </div>
+</footer>
 
 <script src="main.js"></script>
 </body>

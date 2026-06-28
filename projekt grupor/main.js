@@ -47,13 +47,13 @@ for (var i = 0; i < images.length; i++) {
         overlay2.style.display = "flex";
         overlayImg.src = this.src;
 
-        document.querySelector(".gallery").style.filter = "blur(3px)";
+        document.querySelector(".albumi").style.filter = "blur(3px)";
     });
 }
 
 overlay2.addEventListener("click", function () {
     overlay2.style.display = "none";
-    document.querySelector(".gallery").style.filter = "none";
+    document.querySelector(".albumi").style.filter = "none";
 });
 
 function showText() {
@@ -81,7 +81,6 @@ function hello() {
 }
 
 function swap(img) {
-
     if (img.src.includes("krisi.jpg")) {
         img.src = "img/kafshet/choko.jpg";
     } 
@@ -91,26 +90,38 @@ function swap(img) {
     else if (img.src.includes("lulu.jpg")) {
         img.src = "img/kafshet/polari.jpg";
     }
-    else if (img.src.includes("polari.jpg")) {
+    else {
         img.src = "img/kafshet/krisi.jpg";
-    } 
+    }
 }
 
-function swap(img) {
-    if (img.src.includes("mr heckles.jpg")) {
+function swap2(img) {
+    if (img.src.includes("mr%20heckles.jpg") || img.src.includes("mr heckles.jpg")) {
         img.src = "img/kafshet/papagalli.jpg";
-    } 
+    }
     else if (img.src.includes("papagalli.jpg")) {
+        img.src = "img/kafshet/fllanza.jpg";
+    }
+    else if (img.src.includes("fllanza.jpg") || img.src.includes("pauna 2.jpg")) {
         img.src = "img/kafshet/pauna.jpg";
     }
     else if (img.src.includes("pauna.jpg")) {
         img.src = "img/kafshet/pauna 2.jpg";
     }
-    else if (img.src.includes("pauna 2.jpg")) {
+    else if (img.src.includes("pauna%202.jpg") || img.src.includes("pauna 2.jpg")) {
         img.src = "img/kafshet/fazan.jpg";
     }
-    else if (img.src.includes("fazan.jpg")) {
+    else {
         img.src = "img/kafshet/mr heckles.jpg";
+    }
+}
+
+function swap3(img) {
+    if (img.src.includes("lepur.jpg")) {
+        img.src = "img/kafshet/breshka.jpg";
+    }
+    else {
+        img.src = "img/kafshet/lepur.jpg";
     }
 }
 

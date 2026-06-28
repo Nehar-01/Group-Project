@@ -1,45 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lazdrohu N'Fermë</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
+<!DOCTYPE html> <html lang="en">
+<head> <meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Lazdrohu N'Fermë</title> 
+<link rel="stylesheet" href="style.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-
 <header>
     <nav>
-        <img src="img/logo.png" class="logo">
-
-        <div id="myLinks">
-            <a href="home.html">FAQJA KRYESORE</a>
-            <a href="animals.html">KAFSHËT</a>
-            <a href="about.html">RRETH NESH</a>
-            <a href="contact.html">KONTAKTI</a>
+        <img src="img/logo.png" class="logo"> 
+            <div id="myLinks"> <a href="home.html">FAQJA KRYESORE</a> 
+                <a href="animals.html">KAFSHËT</a> 
+                <a href="about.html">RRETH NESH</a> 
+                <a href="contact.html">KONTAKTI</a> 
+            </div> 
+    </nav> 
+</header> 
+    <div class="thelooks"> 
+        <img src="img/image.jpg" id="img"> 
+        <div class="overlay"></div> 
+        <div class="first"> 
+            <h1 class="bigger" id="title">LAZDROHU N'FERMË</h1> 
+            <p id="text" class="big">Përjetoni dashurinë dhe kënaqësinë e kafshëve të fermës sonë.</p>
+                <button onclick="showText()">Shfaqu</button>
+                <button onclick="hideText()">Fsheh</button>
+                <button onclick="hello()" >Më kliko</button>
         </div>
-    </nav>
-</header>
+    </div> 
 
-<div class="thelooks">
-    <img src="img/image.jpg" id="img">
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-section footer-about">
+            <h3>Ferma Jonë</h3>
+            <p>Një eksperiencë e veçantë dhe kujtime të paharrueshme me kafshët dhe natyrën.</p>
+        </div>
 
-    <div class="overlay"></div>
+        <div class="footer-section footer-links">
+            <h3>Menuja</h3>
+            <ul>
+                <li><a href="home.html">Faqja Kryesore</a></li>
+                <li><a href="animals.html">Kafshët</a></li>
+                <li><a href="about.html">Rreth Nesh</a></li>
+                <li><a href="contact.html">Kontakti</a></li>
+            </ul>
+        </div>
 
-    <div class="first">
-        <h1 class="bigger">LAZDROHU N'FERMË</h1>
-        <p class="big">
-            Përjetoni dashurinë dhe kënaqësinë e kafshëve të fermës sonë.
-        </p>
+        <div class="footer-section footer-contact">
+            <h3>Na Kontaktoni</h3>
+            <p><strong>Email:</strong> lazdrohu@gmail.com</p>
+            <p><strong>Tel:</strong> +383 45 264 236</p>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/lazdrohuferme?igsh=MTQ1dm1qNm16ODd0OA==" target="_blank" class="social-link">Instagram</a>
+                <a href="https://www.facebook.com/share/1Bd1Wi3PK9/?mibextid=wwXIfr" target="_blank" class="social-link">Facebook</a>
+                <a href="https://www.tiktok.com/@lazdrohunferme" target="_blank" class="social-link">TikTok</a>
+            </div>
+        </div>
     </div>
-</div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 Ferma Jonë. Të gjitha të drejtat e rezervuara.</p>
+    </div>
+</footer>
 
-
-
-<script src="main.js"></script>
-</body>
-</html>
+    <script src="main.js"></script> 
+</body> 
+</html> 
