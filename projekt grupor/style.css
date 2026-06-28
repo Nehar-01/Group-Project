@@ -368,3 +368,33 @@ button:hover{
     font-size: 0.85rem;
     opacity: 0.8;
 }
+
+.about-intro-section {
+    max-width: 800px;
+    margin: 40px auto 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.about-intro-text {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    color: #444444;
+    line-height: 1.6;
+}
+
+.about-inline-link {
+    color: #2e4a1a; 
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #9dcf77; 
+    padding-bottom: 2px;
+    display: inline-block;
+    margin-left: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.about-inline-link:hover {
+    color: #FFBD31; 
+    border-bottom-color: #FFBD31;
+}
