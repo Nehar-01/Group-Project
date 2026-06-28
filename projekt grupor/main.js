@@ -34,6 +34,20 @@ function pony(){
     }
 }
 
+function kampi(){
+    var answer = confirm("Dëshironi të mësoni më shumë për kampin veror?");
+    if(answer){
+        alert("Kampi veror 2026, java e parë 6-10 Korrik 6-14 vjeq, java e dytë 13-17 Korrik 6-14 vjeq, kampingu me fjetje në tenta 3-5 Gusht 8-14 vjeq, në kampin veror realizohen aktivitete të shumta me kafshët dhe natyrën që janë momente të pa harrueshme për fëmijët.");
+    }
+}
+
+function gara(){
+    var answer = confirm("Dëshironi të mësoni më shumë për garën breshka me lepurin?");
+    if(answer){
+        alert("Merrni pjesë në garën argëtuese me breshka dhe lepuj, një aktivitet unik që sjell buzëqeshje dhe emocion për fëmijët dhe të rriturit.");
+    }
+}
+
 var images = document.querySelectorAll(".imganimal");
 var overlay2 = document.getElementById("overlay2");
 var overlayImg = document.getElementById("overlayImg");
