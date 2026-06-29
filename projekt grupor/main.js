@@ -141,7 +141,7 @@ function swap3(img) {
 
 function updateFarmStatus() {
     var statusBadge = document.getElementById("status-badge");
-    if (!statusBadge) return; 
+    if (!statusBadge) return;
 
     var currentHour = new Date().getHours();
 
